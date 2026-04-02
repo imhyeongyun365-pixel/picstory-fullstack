@@ -3,25 +3,19 @@ import './Landing.scss'
 import Button from '@/components/ui/Button'
 import { NavLink } from 'react-router-dom'
 const bgImages =[
-  './images/landing-sl-1.png',
-  './images/landing-sl-2.png',
-  './images/landing-sl-3.png',
+  // './images/landing-sl-1.png',
+  // './images/landing-sl-2.png',
+  // './images/landing-sl-3.png',
 ]
 const Landing = () => {
   return (
     <section className='landing'>
       <div className="landing-bg">
-        <div className="bg-track">
-          {[...bgImages,...bgImages].map((src,i)=>(
-            <div key={i} className='bg-item'>
-              <img src={src} alt="bg" />
-            </div>
-          ))}
-        </div>
+        <img src="\images\landing-bg.png" alt="landing-bg" />
       </div>
       <div className="inner">
         <div className="t-wrap">
-          <img src="/images/landing-img.png" alt="img" />
+          <img src="/images/landing-Traveler.png" alt="img" />
           <h2>
             <img src="/images/MOMENTRY.png" alt="logo" />
           </h2>
@@ -30,7 +24,7 @@ const Landing = () => {
           </p>
         </div>
         <NavLink to="/login">
-          <Button text='시작하기' className='intro' icons={true}/>
+          <Button text='시작하기' className='intro'/>
         </NavLink>
      
       </div>
