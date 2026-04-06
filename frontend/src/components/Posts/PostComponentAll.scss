@@ -38,12 +38,12 @@
     justify-content: space-between;
 
     &:hover {
-        background-color: $purple-3;
+        background-color: $brown-3;
     }
     .post-card-body {
         flex: 1;
         .post-category {
-            color: $purple;
+            color: $brown;
             font-weight: $fw-bold;
         }
         .post-title {

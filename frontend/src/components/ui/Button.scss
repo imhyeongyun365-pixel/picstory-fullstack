@@ -31,23 +31,17 @@
     }
 
     &.intro {
-        border: 1px solid $purple;
-        background: linear-gradient(90deg,
-                $purple,
-                $purple-2 );
+        border: 1px solid $brown;
+        background: $brown;
 
         &:hover {
-            background: linear-gradient(-90deg,
-                    $purple,
-                    $purple-2 );
+            background:$brown;
             box-shadow: $shadow-intro;
 
         }
     }
     &.primary {
-        background: linear-gradient(90deg,
-      $purple,
-      $purple-2 );
+        background: $brown;
       width: 100%;
       &:hover {
         transform: translateY(0);

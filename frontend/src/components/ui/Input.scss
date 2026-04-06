@@ -24,19 +24,19 @@
             color:$muted;
         }
         &:focus{
-            border-color: $purple;
+            border-color: $brown;
             background: $bg-hover;
-            box-shadow:  0 0 0 2px rgba($purple ,.15);
+            box-shadow:  0 0 0 2px rgba($brown ,.15);
         }
     }
 }
 
 .input-post {
-    border-bottom: 1px solid $purple;
+    border-bottom: 1px solid $brown;
     box-shadow: none;
 
     .input-field {
-        caret-color: $purple;
+        caret-color: $brown;
         font-size: $text-xl;
         color: $gray-600;
         

@@ -83,6 +83,9 @@ const Signup = () => {
   }
   return (
     <section className='auth'>
+      <div className="auth-bg">
+        <img src="\images\landing-bg.png" alt="landing-bg"/>
+      </div>
       <div className="inner">
         <div className="auth-box">
 

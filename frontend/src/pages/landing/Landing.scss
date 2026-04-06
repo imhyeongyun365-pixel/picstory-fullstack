@@ -59,8 +59,8 @@
             background: $button;
             border: none;
             position: absolute;
-            top:48%;
-            left:100px
+            top:45%;
+            left:55%;
         }
 
         .t-wrap {
@@ -68,8 +68,13 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+
             img {
-                width: 25%;
+
+                &[alt="person"] {
+                    margin-left: 35%;
+                    width: 25%;
+                }
                 
                 
             }

@@ -37,7 +37,7 @@ const Header = () => {
       <div className="inner">
         <h1>
           <Link to="/app">
-            <img src="/images/logo.svg" alt="logo" />
+            <img src="/images/MOMENTRY.png" alt="logo" />
           </Link>
         </h1>
         <div className="right">

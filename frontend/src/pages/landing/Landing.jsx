@@ -15,7 +15,7 @@ const Landing = () => {
       </div>
       <div className="inner">
         <div className="t-wrap">
-          <img src="/images/landing-Traveler.png" alt="img" />
+          <img src="/images/landing-Traveler.png" alt="person" />
           <h2>
             <img src="/images/MOMENTRY.png" alt="logo" />
           </h2>
