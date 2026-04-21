@@ -61,6 +61,9 @@ const PostDashboard = () => {
     }
     return (
         <section className='page post-section'>
+            
+        
+      
             <div className="inner">
                 <PostHeader
                     onClick={handleCreatePost}

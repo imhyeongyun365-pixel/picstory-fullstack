@@ -84,9 +84,10 @@ const Signup = () => {
   return (
     <section className='auth'>
       <div className="auth-bg">
-        <img src="\images\landing-bg.png" alt="landing-bg"/>
+        <img src="\images\landing-bg-edited.png" alt="landing-bg"/>
       </div>
       <div className="inner">
+        <img className='driving-car' src="\images\sign_up-car.png" alt="" />
         <div className="auth-box">
 
           <nav>
@@ -96,7 +97,7 @@ const Signup = () => {
               icons
               onClick={handleBack} />
           </nav>
-        </div>
+        
         <form className='auth-form' onSubmit={handleSubmit}>
           <div className="form-group">
 
@@ -149,6 +150,7 @@ const Signup = () => {
           <Link to="/login">
             <Button text="로그인하기" icons />
           </Link>
+        </div>
         </div>
       </div>
     </section>

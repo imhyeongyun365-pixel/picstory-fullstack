@@ -55,10 +55,25 @@
         align-items: center;
         flex-direction: column;
 
+        img.traveling-car {
+            position: absolute;
+            bottom: 65.5%;
+            right: 50%;
+        }
+
+        img.driving-car {
+            position: absolute;
+            bottom: 71.2%;
+            width: 265px;
+            height: 203px;
+        }
+
         .auth-box {
             // flex: 1;
             width: 100%;
-            
+            border: 1px solid #e4af60;
+            padding: $r-md;
+            box-shadow: $shadow;
             nav {
                 display: flex;
                 justify-content: space-between;

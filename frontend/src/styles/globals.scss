@@ -45,6 +45,9 @@ ul {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url(../../public/images/landing-bg-edited.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* App background (보라 그라데이션 + 은은한 비네팅) */
 .app-bg {
@@ -64,7 +67,6 @@ ul {
 .page {
   padding-top: calc(#{$header-h} + 28px);
   padding-bottom: 60px;
-  background-color: $fg;
   color: $bg;
 
 }
@@ -85,7 +87,7 @@ section {
   position: relative;
   height: 100%;
   max-width: $container-sm;
-  margin: auto
+  margin: auto;
 }
 
 /* Glass card helper */

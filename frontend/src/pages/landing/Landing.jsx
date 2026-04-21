@@ -11,7 +11,7 @@ const Landing = () => {
   return (
     <section className='landing'>
       <div className="landing-bg">
-        <img src="\images\landing-bg.png" alt="landing-bg" />
+        <img src="/images/landing-bg-edited.png" alt="landing-bg" />
       </div>
       <div className="inner">
         <div className="t-wrap">

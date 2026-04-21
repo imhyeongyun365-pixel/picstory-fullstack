@@ -1,6 +1,12 @@
 @use "@/styles/variables" as *;
+
 .post-section{
+   
+        
+    
     .inner {
+
+
         max-width: $container-md;
         .post-header{
             display: flex;
@@ -10,7 +16,7 @@
             .post-title {
                 font-size: $text-xl;
                 font-weight: $fw-bold;
-
+                color: $gray-50;
             }
 
             .btn.primary {
@@ -21,6 +27,11 @@
 
     &.post-detail {
         .inner {
+            border: 1px solid rgb(156, 108, 108);
+            border-radius: $r-md;
+            padding: $r-md;
+            background-color: rgba(201, 122, 64, 0.45);
+
             .post-card{
                 margin-top: $space-xl;
                 display: flex;
@@ -31,7 +42,12 @@
                 border-radius: $r-md;
                 color:$bg;
                 
+                .post-card-category {
+                    color: $gray-300;
+                }
+
                 .post-card-title{
+                    color: $gray-100;
                     font-size: $text-xl;
                     margin: $space-md 0;
                 }

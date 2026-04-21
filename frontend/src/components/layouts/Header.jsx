@@ -33,7 +33,7 @@ const Header = () => {
     }
   }
   return (
-    <header>
+    <header className="header">
       <div className="inner">
         <h1>
           <Link to="/app">
@@ -54,8 +54,9 @@ const Header = () => {
             ))}
           </ul>
           <Button
+          className="logout-btn"
             text="로그아웃"
-            // backico='wh' 
+            // backicon='wh' 
             onClick={handleLogout} />
         </div>
       </div>

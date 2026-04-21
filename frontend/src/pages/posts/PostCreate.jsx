@@ -7,6 +7,7 @@ import Input from '@/components/ui/Input'
 import {CATEGORY_OPTIONS} from '../../constants/category'
 import PostTag from '../../components/Posts/PostTag'
 import {createPost} from '@/api/post.api'
+import {uploadImage} from '../../api/file.api'
 const PostCreate = () => {
 
 

@@ -66,9 +66,10 @@ const Login = () => {
   return (
     <section className='auth'>
       <div className="auth-bg">
-        <img src="\images\landing-bg.png" alt="landing-bg"/>
+        <img src="\images\landing-bg-edited.png" alt="landing-bg"/>
       </div>
       <div className="inner">
+        <img className='traveling-car' src="\images\login-car.png" alt="car" />
         <div className="auth-box">
 
           <nav>

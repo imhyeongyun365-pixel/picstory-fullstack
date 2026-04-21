@@ -1,12 +1,18 @@
 @use "@/styles/variables" as *;
-header {
+
+
+
+.header {
+    background-color: $brown-header;
+    
     .inner {
+        
         max-width: $container-lg;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: $space-lg 0;
-
+        padding: $space-lg $space-lg;
+        
         h1 {
             width: 136px;
         }
@@ -17,6 +23,10 @@ header {
             ul{
                 
                 display: flex;
+            }
+
+            .logout-btn {
+                border: 1px solid #fff;
             }
         }
     }
