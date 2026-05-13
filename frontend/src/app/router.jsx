@@ -13,7 +13,7 @@ import PostEdit from '../pages/posts/PostEdit'
 import Setting from '../pages/setting/Setting'
 import Profile from '../pages/profile/Profile'
 import PostCreate from '../pages/posts/PostCreate'
-
+import KakaoCallback from '../pages/auth/KakaoCallback'
 
 
 
@@ -24,7 +24,9 @@ export const router = createBrowserRouter([
     children: [
       { path: '/', element: <Landing /> },
       { path: '/login', element: <Login /> },
-      { path: '/signup', element: <Signup /> }
+      { path: '/signup', element: <Signup /> },
+      { path: '/oauth/kakao/callback', element: <KakaoCallback /> }
+
     ]
   }, {
     // 보호영역

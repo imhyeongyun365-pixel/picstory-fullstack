@@ -21,6 +21,11 @@ public class Member {
     @Column(nullable = false,length = 50)
     private String name;
 
+    @Column(unique = true)
+    private Long kakaoId;
+
+    private String provider;
+
 
     @Column(nullable = false,unique = true,length = 100)
     private String email;
@@ -57,11 +62,13 @@ public class Member {
 
 
 
-    public Member(String name, String email,String passwordHash, String phone){
+    public Member(String name, String email,String passwordHash, String phone,Long kakaoId, String provider){
         this.name=name;
         this.email=email;
         this.passwordHash=passwordHash;
         this.phone=phone;
+        this.kakaoId=kakaoId;
+        this.provider=provider;
         this.status=MemberStatus.ACTIVE;
         this.emailVerified=false;
     }
